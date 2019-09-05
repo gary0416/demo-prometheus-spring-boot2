@@ -27,7 +27,7 @@ docker-compose down -v
 - ${name}_count - Total number of all calls.
 - ${name}_sum - Total time of all calls.
 
-## Gauage
+## Gauge
 my_queue_size
 
 ## Counter
@@ -39,7 +39,7 @@ my_counter_total
 # 每秒请求一次
 watch -n 1 ab -n 1 http://localhost:8080/myTimedMethod
 
-# Gauage
+# Gauge
 # 入队
 curl -v "http://localhost:8080/gauge/offer"
 # 出队
